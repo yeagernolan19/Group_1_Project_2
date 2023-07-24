@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 500px;
+}
+
+
+#map {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.marker-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff6a00;
+    border: 2px solid #ffffff;
+}
+
+
+.leaflet-marker-icon {
+    margin-top: -10px;
+    margin-left: -10px;
+}
