@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tornado Visualization</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 500px;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tornado Visualization</h1>
+        <div id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+    <div class="controls">
+        <label for="tornado-type">Select Tornado Type:</label>
+        <select id="tornado-type" onchange="onTornadoTypeChange()">
+          <option value="EFS_3_Tornadoes">EFS 3 Tornadoes</option>
+          <option value="EFS_4_Tornadoes">EFS 4 Tornadoes</option>
+          <option value="EFS_5_Tornadoes">EFS 5 Tornadoes</option>
+        </select>
+      </div>
+</body>
+</html>
